@@ -1,6 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {View } from 'react-native';
+import 'tailwindcss/tailwind.css';
 import TabNavigation from './Apps/Navigations/TabNavigation';
 
 export default function App() {
